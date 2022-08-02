@@ -14,7 +14,7 @@ jobs:
         uses: 'actions/checkout@v3'
 
       - name: 'Grab Version'
-        run: echo "VERSION=${GITHUB_REF#refs/*/}" | sed 's/v//' >> $GITHUB_ENV
+        run: echo "VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       
       - name: 'Grab Changelog'
         run: |
@@ -30,8 +30,8 @@ jobs:
             github.rest.repos.createRelease({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              tag_name: `v${process.env.VERSION}`,
-              name: `v${process.env.VERSION}`,
+              tag_name: process.env.VERSION,
+              name: process.env.VERSION,
               body: process.env.CHANGELOG,
               draft: false,
               prerelease: false
