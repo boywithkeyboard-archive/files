@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get files recursively in a directory.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
+  "main": "./dist/index.js",
   "exports": "./dist/index.js",
   "types": "./types/index.js",
   "scripts": {
