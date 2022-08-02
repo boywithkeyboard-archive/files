@@ -1,6 +1,6 @@
 {
   "name": "@unvented/files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get files recursively in a directory.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
   "main": "./dist/index.js",
@@ -11,7 +11,7 @@
     "format": "eslint src --fix",
     "build": "rimraf dist && rimraf types && tsc && esbuild src/index.ts --format=esm --bundle --minify --platform=node --outfile=dist/index.js",
     "test": "jest --config jest.config.json",
-    "release": "changeset version && npm i && changeset publish"
+    "release": "npm run lint && npm run build && npm publish --access public"
   },
   "license": "Apache-2.0",
   "repository": "unvented/files",
