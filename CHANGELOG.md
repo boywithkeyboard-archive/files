@@ -1,14 +1,20 @@
 # @unvented/files
 
+## v1.0.2
+
+### Changes
+
+- edit exports
+
 ## v1.0.1
 
 ### Bug Fixes
 
-- fix: add missing `main` field to package.json
+- add missing `main` field to package.json
 
 ### Changes
 
-- refactor: remove changesets
+- remove changesets
 
 ## v1.0.0
 

@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "Get files recursively in a directory.",
   "author": "Samuel Kopp <opensource@azury.dev> (https://azury.dev)",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "exports": "./dist/index.js",
-  "types": "./types/index.js",
+  "types": "types/index.js",
   "scripts": {
     "lint": "eslint src",
     "format": "eslint src --fix",
