@@ -2,6 +2,4 @@
 
 ## 1.0.0
 
-### Major Changes
-
-- Released `@unvented/files`.
+Released `@unvented/files`.
