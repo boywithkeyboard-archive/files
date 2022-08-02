@@ -11,7 +11,7 @@ npm i @unvented/files
 ```js
 import files from '@unvented/files'
 
-for await (let file of files('path/to/directory')) {
+for await (const file of files('path/to/directory')) {
   // do something
 }
 ```
