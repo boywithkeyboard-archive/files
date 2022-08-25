@@ -18,7 +18,7 @@
   "bugs": "https://github.com/unvented/files/issues",
   "homepage": "https://github.com/unvented/files#readme",
   "devDependencies": {
-    "@azury/eslint-config": "^1.0.6",
+    "@azury/eslint-config": "^1.0.7",
     "@azury/style": "^1.0.0",
     "@types/jest": "^28.1.7",
     "@types/node": "^18.7.11",
