@@ -21,7 +21,7 @@
     "@azury/eslint-config": "^1.0.10",
     "@azury/style": "^1.0.0",
     "@types/jest": "^28.1.8",
-    "@types/node": "^18.11.9",
+    "@types/node": "^18.11.12",
     "esbuild": "^0.15.13",
     "eslint": "^8.26.0",
     "jest": "^28.1.3",
